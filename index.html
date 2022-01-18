@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <title>AnimaLove</title>
+</head>
+
+<body>
+    <!-- logo and nav-links  -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="#main-screen" class="logo nav-link">AnimaLove</a>
+            <div class="toggle" onclick="toggleMenu()"></div>
+            <ul class="nav_links">
+                <li><a class="nav-link" href="#pet-baggage" onclick="toggleMenu()">Wyprawka</a></li>
+                <li><a class="nav-link" href="#hotel" onclick="toggleMenu()">Hotel</a></li>
+                <li><a class="nav-link" href="#animals" onclick="toggleMenu()">Zwierzęta</a></li>
+                <li><a class="nav-link" href="#services" onclick="toggleMenu()">Usługi</a></li>
+                <li><a class="nav-link" href="#price-list" onclick="toggleMenu()">Cennik</a></li>
+                <li><a class="nav-link" href="#contact" onclick="toggleMenu()">Kontakt</a></li>
+            </ul>
+            <ul class="nav_links-desktop">
+                <li><a class="nav-link" href="#pet-baggage">Wyprawka</a></li>
+                <li><a class="nav-link" href="#hotel">Hotel</a></li>
+                <li><a class="nav-link" href="#animals">Zwierzęta</a></li>
+                <li><a class="nav-link" href="#services">Usługi</a></li>
+                <li><a class="nav-link" href="#price-list">Cennik</a></li>
+                <li><a class="nav-link" href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section class="main_screen" id="main-screen">
+        <div class="main_text">
+            <h1>AnimaLove</h1>
+
+            <h3>Hotel dla członka twojej rodziny</h3>
+            <button class="btn btn-scroll-to">O nas</button>
+        </div>
+    </section>
+    <section class="hotel section section--1" id="hotel">
+        <div class="title">
+            <h2>O nas</h2>
+        </div>
+        <div class="hotel_content first">
+            <div class="hotel_about-text about">
+                <h3>Nasz hotel:</h3>
+                <ul>
+                    <li>Oferujemy wysokiej klasy przestonne pomieszenia dla zwierząt.
+                    </li>
+                    <li>Mamy w swoim zespole wyspecjalizowanych pracowników, pasjonatów zwierząt.
+                    </li>
+                    <li>Mamy stały kontakt z weterynarzem oraz psychologiem zwierzęcym.
+                    </li>
+                    <li>Nowych gości przyjmujemy w godzinach 10:00-16:00
+                    </li>
+
+                </ul>
+            </div>
+            <div class="hotel_about-picture">
+                <img class="pictures" src="pictures/hotel.jpg" alt="">
+            </div>
+        </div>
+        <div class="hotel_content second">
+
+            <div class="hotel_about-picture">
+                <img class="pictures" src="pictures/1.jpg" alt="">
+            </div>
+
+            <div class="hotel_about-text about">
+                <h3>Nasi goście:</h3>
+                <ul>
+                    <li>Nasi goście są pod stałą opieką pracowników. Zapewniamy im
+                        posiłki, zabawę, higiene, spacery.
+                    </li>
+                    <li>Oferujemy swoje usługi dla zwierząt domowych jak i egzotycznych.
+                    </li>
+                    <li>🐶🐱🐭🐹🐰🐸🐕🐈🐩🐢🐍🦔🐀🐁🐇🐦🐤
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="paw-pattern1"></div>
+    </section>
+    <section class="animals  section " id="animals">
+        <div class="title">
+            <h2>Nasi Goście</h2>
+        </div>
+        <div class="slider" id="slider">
+
+            <div class="slide slide--1">
+                <img src="pictures2/cat.jpg" alt="">
+
+            </div>
+            <div class="slide slide--2">
+                <img src="pictures2/cat1.jpg" alt="">
+            </div>
+            <div class="slide slide--3">
+                <img src="pictures2/dog.jpg" alt="">
+            </div>
+            <div class="slide slide--4">
+                <img src="pictures2/dog2.jpg" alt="">
+            </div>
+            <div class="slide slide--5">
+                <img src="pictures2/snake.jpg" alt="">
+            </div>
+            <div class="slide slide--6">
+                <img src="pictures2/rabbit.jpg" alt="">
+            </div>
+            <div class="slide slide--7">
+                <img src="pictures2/hamster.jpg" alt="">
+            </div>
+            <div class="slide slide--8">
+                <img src="pictures2/bird.jpg" alt="">
+            </div>
+            <button class="slider__btn slider__btn--left">&larr;</button>
+            <button class="slider__btn slider__btn--right">&rarr;</button>
+        </div>
+
+    </section>
+    <div class="paw-pattern"></div>
+
+    <section class="services section" id="services">
+        <div class="title">
+            <h2>Nasze usługi</h2>
+        </div>
+        <div class="hotel-services">
+            <div class="service">
+                <img src="icons/heartbeat.png" alt="">
+                <h3>Zdrowie</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ullam sit rem distinctio magnam est
+                </p>
+            </div>
+            <div class="service">
+                <img src="icons/pet-shampoo.png" alt="">
+                <h3>Higiena</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ullam sit rem distinctio magnam est
+                </p>
+
+            </div>
+            <div class="service">
+                <img src="icons/ear-cleaning.png" alt="">
+                <h3>Leczenie</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ullam sit rem distinctio magnam est
+                </p>
+
+            </div>
+            <div class="service">
+                <img src="icons/dog-walking.png" alt="">
+                <h3>Spacery</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ullam sit rem distinctio magnam est
+                </p>
+
+            </div>
+            <div class="service">
+                <img src="icons/dog-food.png" alt="">
+                <h3>Karmienie</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ullam sit rem distinctio magnam est
+                </p>
+
+            </div>
+            <div class="service">
+                <img src="icons/play-with-pet.png" alt="">
+                <h3>Opieka</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ullam sit rem distinctio magnam est
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="price  section " id="price-list">
+        <div class="title">
+            <h2>Cennik</h2>
+        </div>
+        <div class="price-content">
+            <div class="price-list">
+                <div class="bundle-name">
+                    <h2>Pakiet Standard</h2>
+                    <h3>Zwierzęta domowe &#60;20kg</h3>
+                </div>
+                <div class="service-list">
+                    <ul class="bundle-list">
+                        <li>Nocleg</li>
+                        <li>Wyżywienie</li>
+                        <li>Higiena</li>
+                        <li>Zabawa</li>
+                        <li>Spacery</li>
+
+                    </ul>
+                    <strong>50zł/dzień</strong>
+                </div>
+                <div class="bundle-icon">
+                    <img src="icons/pet-house.png" alt="">
+                </div>
+            </div>
+            <div class="price-list">
+                <div class="bundle-name">
+                    <h2>Pakiet Plus</h2>
+                    <h3>Zwierzęta domowe >20kg</h3>
+                </div>
+                <div class="service-list">
+                    <ul class="bundle-list">
+                        <li>Nocleg</li>
+                        <li>Wyżywienie</li>
+                        <li>Higiena</li>
+                        <li>Zabawa</li>
+                        <li>Spacery</li>
+
+                    </ul>
+                    <strong>60zł/dzień</strong>
+                </div>
+                <div class="bundle-icon">
+                    <img src="icons/pet.png" alt="">
+                </div>
+            </div>
+            <div class="price-list">
+                <div class="bundle-name">
+                    <h2>Pakiet Indywidualny</h2>
+                    <h3>Indywidualne potrzeby</h3>
+
+                </div>
+                <div class="service-list">
+                    <ul class="bundle-list">
+                        <li>zwięrzęta egzotyczne</li>
+                        <li>zwięrzęta agresywne</li>
+                        <li>zwierzęta wymagające<br>całodobowej opieki</li>
+                        <li>Osobiste preferencje</li>
+
+                    </ul>
+                    <strong>Od 70zł/doba</strong>
+                </div>
+                <div class="bundle-icon">
+                    <img src="icons/anaconda.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="vet">
+            <h2>Wizyta weterynarza</h2>
+
+            <p>Wizyta kontrolna -<strong>100zł</strong> </p>
+            <p> Wizyta kontrolna + leczenie -<strong>160zł</strong></p>
+
+        </div>
+    </section>
+    <section class="pet-baggage  section " id="pet-baggage">
+        <div class="title">
+            <h2>Wyprawka zwierzaka</h2>
+        </div>
+        <div class="pet-baggage-content">
+            <div class="baggage-list">
+
+                <p>- Prosimy o przyniesienie aktualnej książeczki zdrowia jak i szczepień</p>
+                <p>- Prosimy o zaopatrzenie zwierzaka w obroże przeciwpchelne</p>
+                <p>- Dla zwierząt ze specjanlną karmą prosimy przynieść jej zapas</p>
+                <p>- Wskazane jest zabranie ulubionej zabawki, kocyka, by zwierze czuło się bezpiecznie</p>
+
+            </div>
+            <img class="pet-baggage-picture" src="pictures/baggage.jpg" alt="">
+
+        </div>
+    </section>
+    <section class="contact section" id="contact">
+        <div class="title">
+            <h2>Kontakt</h2>
+        </div>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="info">
+                    <div class="icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="text">
+                        <h3>Adres</h3>
+                        <p>Miasto Ulica <br> Liskowo Wielkie <br>515531</p>
+                    </div>
+                </div>
+                <div class="info">
+                    <div class="icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>123456789</p>
+                    </div>
+                </div>
+                <div class="info">
+                    <div class="icon">
+                        <i class="far fa-envelope"></i>
+                    </div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>animalove@anima.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form">
+                <form>
+                    <h3>Wyślij nam wiadomość</h3>
+                    <input type="text" name="fullName" placeholder="Full Name">
+                    <input type="email" name="email" placeholder="Email">
+                    <textarea name="message" placeholder="Twoja wiadomość"></textarea>
+                    <input type="submit" value="send">
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Sandra Saja</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
